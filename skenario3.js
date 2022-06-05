@@ -12,7 +12,7 @@ function statusCallback(error, result, latency) {
 const options = {
     url: 'http://34.142.244.46:30001/orders',
     method: 'POST',
-    maxRequests: 15 * process.argv[2],
+    maxRequests: 420 * process.argv[2],
     concurrency: 1,
     requestsPerSecond: process.argv[2],
     statusCallback: statusCallback,
