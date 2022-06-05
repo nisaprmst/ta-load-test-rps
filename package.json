@@ -1,0 +1,25 @@
+{
+  "name": "ta-load-test-rps",
+  "version": "1.0.0",
+  "description": "to simulate load test with fixed rps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js",
+    "dev2": "node index2.js",
+    "dev3": "node index3.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nisaprmst/ta-load-test-rps.git"
+  },
+  "author": "nisaprmst",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nisaprmst/ta-load-test-rps/issues"
+  },
+  "homepage": "https://github.com/nisaprmst/ta-load-test-rps#readme",
+  "devDependencies": {
+    "loadtest": "^5.2.0"
+  }
+}
